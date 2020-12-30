@@ -1,0 +1,16 @@
+{
+    "name": "rohsyl/bookingsync-oauth2-php",
+    "description": "BookingSync Provider for OAuth 2.0 Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Roh",
+            "email": "syzin12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "league/oauth2-client": "^2.0"
+    }
+}
