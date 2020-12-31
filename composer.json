@@ -9,8 +9,21 @@
             "email": "syzin12@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "rohsyl\\BookingSync\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rohsyl\\BookingSync\\OAuth2\\Client\\Test\\": "test/src/"
+        }
     }
 }
