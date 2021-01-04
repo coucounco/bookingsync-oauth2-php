@@ -1,7 +1,6 @@
 <?php
 namespace rohsyl\BookingSync\OAuth2\Client;
 
-
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Provider\GenericResourceOwner;

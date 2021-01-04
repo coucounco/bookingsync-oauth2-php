@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": ">7.1",
         "league/oauth2-client": "^2.0"
     },
     "require-dev": {
@@ -23,7 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "rohsyl\\BookingSync\\OAuth2\\Client\\Test\\": "test/src/"
+            "rohsyl\\BookingSync\\OAuth2\\Client\\Tests\\": "tests/"
         }
     }
 }
