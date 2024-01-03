@@ -1,5 +1,5 @@
 {
-    "name": "rohsyl/bookingsync-oauth2-php",
+    "name": "coucounco/bookingsync-oauth2-php",
     "description": "BookingSync Provider for OAuth 2.0 Client",
     "type": "library",
     "license": "MIT",
